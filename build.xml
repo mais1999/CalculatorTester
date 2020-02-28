@@ -3,9 +3,9 @@
 
 <project default="compile">
 
-<property location="C:\Users\Sewar\eclipse-workspace\CalculatorTest\src\Calc" name="src.java.dir"/>
+<property location="./src/Calc" name="src.java.dir"/>
 
-<property location=".C:\Users\Sewar\eclipse-workspace\CalculatorTest\src\CalcTest" name="src.test.dir"/>
+<property location="./src/CalcTest" name="src.test.dir"/>
 
 <property location="./target" name="result.dir"/>
 
