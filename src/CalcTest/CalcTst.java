@@ -51,13 +51,7 @@ public class CalcTst {
 		int res=o.add(-5,8);
 		assertTrue(res==3);
 	}
-	@Test
-	public void testAdd_LitterWithDigit_exception() throws Exception{
-		
-		Calc o=new Calc();
-		int res=o.add(5,'w');
-		assertTrue(res==0);
-	}
+	
 	@Test
 	public void testSub_FirstPosGreaterSecondPosLess_PostInt() {
 		
